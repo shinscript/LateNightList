@@ -1,19 +1,27 @@
 {
   "name": "latenightlist",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "It's a todo List CRUD App",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MShinControl/LateNightList.git"
   },
-  "author": "",
+  "author": "Mark Shin, David Chai, & Andy Wong",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MShinControl/LateNightList/issues"
   },
-  "homepage": "https://github.com/MShinControl/LateNightList#readme"
+  "homepage": "https://github.com/MShinControl/LateNightList#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.6.9",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
 }
